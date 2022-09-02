@@ -1,0 +1,410 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'peugeot';
+    src: url('/fonts/peugeot.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header{
+    background-color: black;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 40px 800px 30px;
+    grid-template-rows: 20px 10px 10px;
+    grid-template-areas: "logoheader peugeotheader botonHamb"
+                        "logoheader sloganheader botonHamb"
+                        "nav nav nav";
+}
+
+.logoheader {
+    grid-area: logoheader;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.peugeotheader{
+    color: white;
+    font-family: peugeot;
+    grid-area: peugeotheader;
+    margin-top: 4px;
+}
+
+.sloganheader{
+    color: rgb(122, 122, 122);
+    font-family: peugeot;
+    font-size: 11px;
+    grid-area: sloganheader;
+    margin-top: 3px;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.botonHamb{
+    grid-area: botonHamb;
+    align-items: right;
+    justify-items: right;
+    justify-content: right;
+}
+
+.header img{
+    width: 30px;
+}
+
+header nav ul li{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    list-style: none;
+    font-size: 11px;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-family: peugeot;
+}
+
+header nav ul li a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+
+.mainindex{
+    margin-top: 60px; 
+}
+
+.h1index{
+    text-align: center;
+    margin-top: 30px;
+    font-family: peugeot;
+    font-size: 50px;
+}
+
+.h2index{
+    text-align: center;
+    font-family: peugeot;
+    color: grey;
+}
+
+.ulindex{
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    text-align: right;
+    list-style: none;
+    font-family: peugeot;
+}
+
+.h1{
+    margin-top: 50px;
+    padding-left: 15px;
+    font-size: 25px;
+    font-family: peugeot;
+}
+.h2{
+    padding-left: 15px;
+    font-family: peugeot;
+    font-size: 14px;
+    color: grey;
+}
+
+.parrafohistoria {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 35px;
+    padding-right: 25px;
+    font-family: peugeot;
+}
+.parrafohistoria2 {
+    font-family: peugeot;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 65px;
+    margin-bottom: 40px;
+}
+
+.mosaico1{
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(229, 229, 229, 0.918);
+    width: 300px; /* ancho */
+    height: 150px; /* alto */ 
+    border: 1px solid grey;
+}
+
+.mosaico2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+    background-color: rgba(229, 229, 229, 0.918);
+    width: 300px; /* ancho */
+    height: 150px; /* alto */ 
+    border: 1px solid grey; 
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.mosaico3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(229, 229, 229, 0.918);
+    width: 300px; /* ancho */
+    height: 150px; /* alto */  
+    margin-bottom: 30px;
+    border: 1px solid grey;
+}
+
+.mosaico{
+    opacity: 0.4;
+    width: 330px;
+    padding-left: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.subtitulosHistoria{
+    font-family: peugeot;
+    background-color: rgb(206, 205, 205);
+    padding-left: 55px;
+    padding-right: 65px;
+}
+
+.parrafoModelos{
+    font-family: peugeot;
+    background-color: rgb(233, 233, 233);
+    padding-left: 70px;
+    padding-right: 65px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+
+}
+
+.parrafoArgentina{
+    font-family: peugeot;
+    background-color: rgb(233, 233, 233);
+    padding-left: 70px;
+    padding-right: 65px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.equipamiento{
+    font-family: peugeot;
+    background-color: rgb(233, 233, 233);
+    padding-left: 80px;
+    padding-right: 65px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.listadoversiones{
+    margin-top: 30px;
+    padding-left: 60px;
+    font-family: peugeot;
+}
+
+.videoinforme{
+    margin-top: 30px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.galeria{
+    margin-top: 30px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+#grillaGaleria {
+    height: 600px;
+    background-color: rgb(244, 244, 244);
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 170px 170px 170px;
+    grid-template-areas: "imgv6 imgAleman imgBaul"
+                        "imgv62 imgTrompa imgCapot";
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+#imgv6 {
+    background-color: rgb(224, 224, 224);
+    grid-area: imgv6;
+}
+
+#imgAleman {
+    background-color: rgb(205, 204, 204);
+    grid-area: imgAleman;
+}
+
+#imgBaul {
+    background-color: rgb(224, 224, 224);
+    grid-area: imgBaul;
+}
+
+#imgv62 {
+    background-color: rgb(224, 224, 224);
+    grid-area: imgv62;
+}
+
+#imgTrompa {
+    background-color: rgb(205, 204, 204);
+    grid-area: imgTrompa;
+}
+
+#imgCapot {
+    background-color: rgb(224, 224, 224);
+    grid-area: imgCapot;
+}
+
+.productos{
+    margin-top: 30px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.lapiceras{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.reloj{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.cuaderno{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.bolso{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.formulario{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    border: solid 3px rgb(122, 122, 122);
+    padding: 10px;
+    font-family: peugeot;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.itemsform{
+    margin-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: rgb(228, 226, 226);
+    height: 50px;
+    display: grid;
+    grid-template-rows: 20px 10px;
+    grid-template-columns: 40px 800px 120px;
+    grid-template-areas: "logofooter peugeotfooter omifooter"
+                        "logofooter sloganfooter kado";
+}
+
+
+.header{
+    background-color: black;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 40px 800px 30px;
+    grid-template-rows: 20px 10px 10px;
+    grid-template-areas: "logoheader peugeotheader botonHamb"
+                        "logoheader sloganheader botonHamb"
+                        "nav nav nav";
+}
+
+.peugeotfooter{
+    display: inline;
+    color: rgb(87, 87, 87);
+    font-family: peugeot;
+    font-size: 12px;
+    grid-area: peugeotfooter;
+}
+
+.sloganfooter{
+    color: rgb(87, 87, 87);
+    font-family: peugeot;
+    font-size: 9px;
+    grid-area: sloganfooter;
+}
+
+.logofooter{
+    display: inline;
+    width: 30px;
+    grid-area: logofooter;
+}
+.omifooter{
+    display: inline;
+    width: 30px;
+    font-family: peugeot;
+    grid-area: omifooter;
+}
+
+footer a:link, a:visited, a:active{
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    font-family: peugeot;
+    font-size: 9px;
+    grid-area: kado;
+}
+
+@media only screen and (max-width: 1024px) {
+    #grillaGaleria {
+        height: 900px;
+        background-color: rgb(214, 214, 214);
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 170px 170px;
+        grid-template-areas: "imgv6 imgAleman"
+                            "imgBaul imgv62 "
+                            "imgTrompa imgCapot";
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #grillaGaleria {
+        height: 1750px;
+        background-color: rgb(176, 176, 176);
+        grid-template-rows: 280px 280px 280px 280px 280px 280px;
+        grid-template-columns: 170px;
+        grid-template-areas: "imgv6"
+                            "imgAleman"
+                            "imgBaul"
+                            "imgv62"
+                            "imgTrompa"
+                            "imgCapot";
+    
+}
+}
